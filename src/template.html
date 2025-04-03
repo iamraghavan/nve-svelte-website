@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="theme-color" content="#333333">
+
+	%sapper.base%
+
+	
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/meanmenu.css">
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css">
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+	%sapper.scripts%
+
+	<!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+	%sapper.styles%
+
+	<!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+	%sapper.head%
+</head>
+<body>
+	<!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+	<div id="sapper">%sapper.html%</div>
+
+
+
+	 <script src="assets/js/jquery-3.7.1.min.js"></script>
+	 <script src="assets/js/viewport.jquery.js"></script>
+	 <script src="assets/js/bootstrap.bundle.min.js"></script>
+	 <script src="assets/js/jquery.nice-select.min.js"></script>
+	 <script src="assets/js/jquery.waypoints.js"></script>
+	 <script src="assets/js/jquery.counterup.min.js"></script>
+	 <script src="assets/js/swiper-bundle.min.js"></script>	 
+	 <script src="assets/js/jquery.meanmenu.min.js"></script>
+	 <script src="assets/js/ion.rangeSlider.min.js"></script>
+	 <script src="assets/js/wow.min.js"></script>
+	 <script src="assets/js/main.js"></script>
+</body>
+</html>
